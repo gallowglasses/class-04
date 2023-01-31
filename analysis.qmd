@@ -5,3 +5,12 @@ format: html
 editor: visual
 ---
 
+```{r}
+#| echo: FALSE
+library(tidyverse)
+
+x <- read_rds("data/ec.rds")
+
+
+```
+
